@@ -6,3 +6,5 @@ _site/
 .bundle/
 vendor/
 docs/Gemfile.lock
+
+.DS_Store
