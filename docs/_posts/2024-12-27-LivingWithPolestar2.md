@@ -4,7 +4,7 @@ author: Bart Busschots
 ---
 # My Polestar 2
 
-![Front & side view](/media/2024-12-27-Polestar2FrontSide.jpeg)
+![Front & side view]({{ "/media/2024-12-27-Polestar2FrontSide.jpeg" | relative_url }})
 ![Rear & side view](/media/2024-12-27-Polestar2RearSide.jpeg)
 ![Interior](/media/2024-12-27-Polestar2Interior.jpeg)
 * Polestar's brochure page for the Polestar 2 — [www.polestar.com/…](https://www.polestar.com/ie/polestar-2/)
