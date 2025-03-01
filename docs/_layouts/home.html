@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  {% include head_begin.html %}
+  <title>{{ site.title }}</title>
+  {% include head_end.html %}
+</head>
+<body>
+<div class="container">
+  <header class="row">
+    <div class="col-12 p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">{{ site.title | default: "Set with title in _config.yml" }}</h1>
+        <p class="col-md-8 fs-4">{{ site.description | default: "Add a site description to _config.yml to set this text." }}</p>
+      </div>
+    </div>
+  </header>
+  <main class="row">
+    <div class="col-12">
+      {{ content }}
+    </div>
+    <div class="coll-12">
+      <h1>Recent Posts</h1>
+      <ul>
+        {% for post in site.posts limit: 5 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%d %B %Y" }})</a>
+        </li>
+        {% else %}
+        <li class="text-muted">
+            Add you first post to _posts
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </main>
+</div>
+{% include body_end.html  %}
+</body>
+</html>

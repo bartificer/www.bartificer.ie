@@ -1,3 +1,11 @@
 ---
 ---
 @import "bootstrap/bootstrap";
+
+main {
+    img {
+       @extend .img-fluid;
+       @extend .m-3;
+       @extend .rounded;
+    }
+}

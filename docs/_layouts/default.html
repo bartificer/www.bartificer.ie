@@ -1,15 +1,21 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include head_begin.html %}
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head_end.html %}
 </head>
 <body>
-<main class="container pt-3">
-    {{ content }}
-</main>
+<div class="container">
+  <header class="row">
+    <h1 class="display-3">{{ page.title | default: page.slug }}</h1>
+  </header>
+  <main class="row">
+    <div class="coll-12">
+      {{ content }}
+    </div>
+  </main>
+</div>
+{% include body_end.html  %}
 </body>
-<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 </html>
