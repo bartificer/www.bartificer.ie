@@ -5,8 +5,9 @@ author: Bart Busschots
 # My Polestar 2
 
 ![Front & side view]({{ "/media/2024-12-27-Polestar2FrontSide.jpeg" | relative_url }})
-![Rear & side view](/media/2024-12-27-Polestar2RearSide.jpeg)
-![Interior](/media/2024-12-27-Polestar2Interior.jpeg)
+![Rear & side view]({{ "/media/2024-12-27-Polestar2RearSide.jpeg" | relative_url }})
+![Interior]({{ "/media/2024-12-27-Polestar2Interior.jpeg" | relative_url }})
+
 * Polestar's brochure page for the Polestar 2 — [www.polestar.com/…](https://www.polestar.com/ie/polestar-2/)
 * The spec sheet for the Polestar 2 — [www.polestar.com/…](https://www.polestar.com/ie/polestar-2/specifications/)
 
@@ -30,7 +31,7 @@ My prioritised wish-list for the search was:
 2. A design I can live with, both in terms of the form factor and the software interfaces
 3. The option of a tow bar
 4. A price point between €50k and €70k, ideally around €55k
-5. Longer range, ideally over 600km WLTP ([Worldwide Harmonised Light Vehicles Test Procedure]([url](https://en.wikipedia.org/wiki/Worldwide_Harmonised_Light_Vehicles_Test_Procedure)))
+5. Longer range, ideally over 600km WLTP ([Worldwide Harmonised Light Vehicles Test Procedure](https://en.wikipedia.org/wiki/Worldwide_Harmonised_Light_Vehicles_Test_Procedure))
 6. Clean software interfaces, ideally with Apple CarPlay support
 7. A nice physical design I love rather than just like
 8. A nice shade of blue 🙂
@@ -94,7 +95,7 @@ Like with Tesla, there's an app which gives you remote information and control o
 - But the cadence for new feature releases is faster from Polestar ATM, so the gap is noticeably closing
 - Again, the app perfectly matches all of Polestar's UI, and again, I miss the playfulness of the Tesla app a little 🙂. This is especially true for the home screen widget where it just shows information, not a nice picture of the car.
 
-![The Polestar 2 app](/media/2024-12-27-Polestar2App.jpeg)
+![The Polestar 2 app]({{ "/media/2024-12-27-Polestar2App.jpeg" | relative_url }})
 
 The screenshot above shows the app’s main interface, so you can see it give visibility and control over the following areas:
 
@@ -114,7 +115,7 @@ The screenshot above shows the app’s main interface, so you can see it give vi
 
 The iOS app also comes with a widget, but again, it’s utilitarian rather than whimsical, as you can see in the screenshot below (location redacted under that red bar 🙂).
 
-![The Polestar 2 iPhone Homescreen Widget](/media/2024-12-27-Polestar2Widget.jpeg)
+![The Polestar 2 iPhone Homescreen Widget]({{ "/media/2024-12-27-Polestar2Widget.jpeg" | relative_url }})
 
 ## Driving Controls
 
@@ -135,7 +136,7 @@ The information is grouped into five clusters:
 	3. Behind and to the right of the cruise control icon is an icon that looks like the back of a car — it lights up when cruise control is actively slowing managing following distance to a car in front. This icon also extends to show a four-stripe scale when you adjust the follow distance.  
 5. All along the top other icons appear to show you the status of your headlights, wipers, etc., including a nice reassuring little icon when you have automatic wipers ready and waiting.
 
-![The Dashboard](/media/2024-12-27-Polestar2Dashboard.jpeg)
+![The Dashboard]({{ "/media/2024-12-27-Polestar2Dashboard.jpeg" | relative_url }})
 
 The screenshot above shows the interface while navigating with Google Maps. 
 - The top row of icons show I have my running lights on, automatic wipers enabled, and that the road temperature is 11°C. 
@@ -162,7 +163,7 @@ It’s possible both of my quibbles will be addressed by a future OTA update. On
 
 Firstly, all the controls are together on the left of the wheel, so not split between the stalk and the right of the wheel like they were with Tesla. 
 
-![The Steeringwheel](/media/2024-12-27-Polestar2Steeringwheel.jpeg)
+![The Steeringwheel]({{ "/media/2024-12-27-Polestar2Steeringwheel.jpeg" | relative_url }})
 
 As you can see in the photo above, there are 7 buttons total which sounds a lot, but they’re sensibly laid out, and in Ireland one of the buttons is not currently used (it’s for that additional cruise control mode we don’t have here).
 
@@ -186,7 +187,7 @@ On a more practical level, you'll never need to be worried about safely pulling 
 
 This cropped screenshot from the app shows my car’s vital statistics:
 
-![Polestar 2 Specs](/media/2024-12-27-Polestar2Spec.jpeg)
+![Polestar 2 Specs]({{ "/media/2024-12-27-Polestar2Spec.jpeg" | relative_url }})
 
 # Final Thoughts
 
