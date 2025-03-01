@@ -24,7 +24,7 @@
       <ul>
         {% for post in site.posts limit: 5 %}
         <li>
-          <a href="{{ post.url | relative }}">{{ post.title }} ({{ post.date | date: "%d %B %Y" }})</a>
+          <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%d %B %Y" }}</a>
         </li>
         {% else %}
         <li class="text-muted">
