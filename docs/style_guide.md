@@ -1,4 +1,6 @@
-# Bartificer Creations Style Guide
+---
+title:  Bartificer Creations Style Guide
+---
 
 All articles, show notes, and other media produced under the *Bartificer Creations* brand should adhere to the following writing conventions.
 
